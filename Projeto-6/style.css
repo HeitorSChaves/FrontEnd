@@ -18,16 +18,21 @@
 
 .front {
     transform: rotateY(0deg);
-    background-color: black;
+    width: 200px;
+    height: 400px;
     color: white;
     text-align: center;
+    background:url(exodia.png) no-repeat ;
 }
 
 .back {
     transform: rotateY(180deg);
     background-color: blue;
     color: black;
+    width: 200px;
+    height: 400px;
     text-align: center;
+    background: url(fundo.jfif) no-repeat;
 }
 
 .container:hover .front {
